@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimo's Confeitaria - Cardápio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./imagens/png-transparent-black-tabby-kitten-cat-kitten-cat-kitten-cat-like-mammal-animals-carnivoran-removebg-preview.png" alt="Logo Mimo's Confeitaria" class="logo">
+            <h1>Mimo's Confeitaria</h1>
+            <nav>
+                <ul>
+                    <li><a href="#bolos">Bolos</a></li>
+                    <li><a href="#doces-e-sobremesas">Doces e Sobremesas</a></li>
+                    <li><a href="#lanches-e-salgados">Lanches e Salgados</a></li>
+                    <li><a href="#bebidas">Bebidas</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <button id="view-cart">Carrinho (<span id="cart-count">0</span>)</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="bolos">
+            <h2>Bolos</h2>
+            <ul>
+                <li>
+                    <img src="https://www.receiteria.com.br/wp-content/uploads/bolo-4-leites-com-morango-15-730x548.jpg" alt="Bolo 4 leites com morango">
+                    <div class="item-info">
+                        <span>Bolo 4 leites com morango - R$30,00</span>
+                        <button class="add-to-cart" data-name="Bolo 4 leites com morango" data-price="30.00">Adicionar ao Carrinho</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://static.itdg.com.br/images/360-240/9f464476f8ed597bb5b0bb3aaf8eb8d3/329518-original.jpg" alt="Bolo de cenoura">
+                    <div class="item-info">
+                        <span>Bolo de cenoura - R$35,00</span>
+                        <button class="add-to-cart" data-name="Bolo de cenoura" data-price="35.00">Adicionar ao Carrinho</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://luciliadiniz.com/wp-content/uploads/2018/09/tortinha-s-farinha-capa-1.jpg" alt="Bolo de maçã sem trigo">
+                    <div class="item-info">
+                        <span>Bolo de maçã sem trigo - R$40,00</span>
+                        <button class="add-to-cart" data-name="Bolo de maçã sem trigo" data-price="40.00">Adicionar ao Carrinho</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="doces-e-sobremesas">
+            <h2>Doces e Sobremesas</h2>
+            <ul>
+                <li>
+                    <img src="https://d1uz88p17r663j.cloudfront.net/original/5ae385739e74b06dbb10c6aaec133063_tacinha-creme-coco-manga-receitas-nestle.jpg" alt="Mousse de manga">
+                    <div class="item-info">
+                        <span>Mousse de manga - R$25,00</span>
+                        <button class="add-to-cart" data-name="Mousse de manga" data-price="25.00">Adicionar ao Carrinho</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://www.sabornamesa.com.br/media/k2/items/cache/ba0de4516e0eb74cc70e755ba1f8371d_L.jpg" alt="Pavê de bis">
+                    <div class="item-info">
+                        <span>Pavê de bis - R$38,00</span>
+                        <button class="add-to-cart" data-name="Pavê de bis" data-price="38.00">Adicionar ao Carrinho</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://www.receitasnestle.com.br/sites/default/files/srh_recipes/1d22d96039f98608bc9338debb1b4579.jpg" alt="Torta de limão">
+                    <div class="item-info">
+                        <span>Torta de limão - R$40,00</span>
+                        <button class="add-to-cart" data-name="Torta de limão" data-price="40.00">Adicionar ao Carrinho</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="lanches-e-salgados">
+            <h2>Lanches e Salgados</h2>
+            <ul>
+                <li>
+                    <img src="https://www.receiteria.com.br/wp-content/uploads/crepioca-de-queijo-com-tomate-e-oregano-capa.png" alt="Crepioca de queijo com tomate e orégano">
+                    <div class="item-info">
+                        <span>Crepioca de queijo com tomate e orégano - R$15,00</span>
+                        <button class="add-to-cart" data-name="Crepioca de queijo com tomate e orégano" data-price="15.00">Adicionar ao Carrinho</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://www.hojetemfrango.com.br/wp-content/uploads/2019/01/shutterstock_281889503.jpg" alt="Coxinha">
+                    <div class="item-info">
+                        <span>Coxinha - R$6,00</span>
+                        <button class="add-to-cart" data-name="Coxinha" data-price="6.00">Adicionar ao Carrinho</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://assets.unileversolutions.com/recipes-v3/36415-default.jpg" alt="Torta de Sardinha">
+                    <div class="item-info">
+                        <span>Torta de Sardinha - R$20,00</span>
+                        <button class="add-to-cart" data-name="Torta de Sardinha" data-price="20.00">Adicionar ao Carrinho</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="bebidas">
+            <h2>Bebidas</h2>
+            <ul>
+                <li>
+                    <img src="https://st3.depositphotos.com/1063437/16054/i/450/depositphotos_160546204-stock-photo-bottles-of-assorted-global-soft.jpg" alt="Refrigerante">
+                    <div class="item-info">
+                        <span>Refrigerante - R$8,00</span>
+                        <button class="add-to-cart" data-name="Refrigerante" data-price="8.00">Adicionar ao Carrinho</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://cdn.deliway.com.br/blog/base/6a3/c8e/9db/sucos-diferentes.jpg" alt="Suco Natural">
+                    <div class="item-info">
+                        <span>Suco Natural - R$7,00</span>
+                        <button class="add-to-cart" data-name="Suco Natural" data-price="7.00">Adicionar ao Carrinho</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <div id="cart-overlay" class="cart-overlay">
+        <div class="cart-content">
+            <h2>Seu Carrinho</h2>
+            <ul id="cart-items"></ul>
+            <div class="cart-total">
+                <span>Total: R$<span id="cart-total">0.00</span></span>
+            </div>
+            <button id="checkout">Finalizar Compra</button>
+            <button id="close-cart">Fechar</button>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mimo's Confeitaria - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
