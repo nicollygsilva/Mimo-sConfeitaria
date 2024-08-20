@@ -114,7 +114,7 @@ footer .container {
 }
 /* Estilo para os botões "Adicionar ao Carrinho" */
 .add-to-cart {
-    background-color: #2883a7; /* Verde bonito */
+    background-color: #2e3030; /* Verde bonito */
     color: white;
     border: none;
     border-radius: 5px;
@@ -126,7 +126,7 @@ footer .container {
 }
 
 .add-to-cart:hover {
-    background-color: #215a88; /* Verde escuro ao passar o mouse */
+    background-color: #787a7c; /* Verde escuro ao passar o mouse */
 }
 
 /* Estilo do botão "Carrinho" no cabeçalho */
@@ -142,7 +142,7 @@ footer .container {
 }
 
 .cart button:hover {
-    background-color: #008fb3; /* Azul escuro ao passar o mouse */
+    background-color: #525455; /* Azul escuro ao passar o mouse */
 }
 
 /* Adiciona estilo para a sobreposição do carrinho */
